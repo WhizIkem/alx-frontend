@@ -13,22 +13,27 @@ body {
 }
 
 /* foreground color for all anchor elements */
-a[href]:link {
+a {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a[href]:visited {
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:visited {
   color: var(--text-color);
   text-decoration: none;
   font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
 }
 
