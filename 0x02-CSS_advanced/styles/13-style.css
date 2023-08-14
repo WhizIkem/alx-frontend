@@ -18,25 +18,6 @@ a {
   text-decoration: none;
 }
 
-a[href]:link {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-a[href]:visited {
-  color: var(--text-color);
-  text-decoration: none;
-  font-style: italic;
-}
-
-a[href]:hover {
-  text-decoration: underline;
-}
-
-a[href]:active {
-  background-color: var(--color-light-grey);
-}
-
 /* hide elements with the visually-hidden */
 .visually-hidden {
   display: none;
@@ -102,4 +83,23 @@ h5,
 h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
+}
+
+a[href]:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a[href]:visited {
+  color: var(--text-color);
+  text-decoration: none;
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
