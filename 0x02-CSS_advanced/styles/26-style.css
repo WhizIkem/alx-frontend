@@ -347,7 +347,7 @@ a:active {
 /* target the <cite> HTML tag which is inside card-quote inside card-testimonial */
 .card-testimonial .card-quote cite {
   display: block;
-  margin-top: 1rem;
+  padding-top: 1rem;
   color: var(--color-primary);
 }
 
