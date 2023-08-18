@@ -192,9 +192,7 @@ template {
   --footer-padding: 5rem 0 1rem;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -292,12 +290,7 @@ a:active {
 }
 
 /* target section headings and set font-family to font-family-title */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
